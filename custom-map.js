@@ -33,6 +33,16 @@ looker.plugins.visualizations.add({
         styleSheet.innerText = styles
         document.head.appendChild(styleSheet)
 
+
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.id = cssId;
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://unpkg.com/leaflet@1.0.3/dist/leaflet.css';
+        link.media = 'all';
+        head.appendChild(link);
+
         var elements = document.createElement("div");
         elements.setAttribute("id", "leaflet_map");
         document.getElementById("vis").appendChild(elements);
