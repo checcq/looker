@@ -70,31 +70,31 @@ looker.plugins.visualizations.add({
 
         var data = [
             {
-                "Label": "Ant",
+                "Label": "Ant1",
                 "Value": 120
             },
             {
-                "Label": "Bat",
+                "Label": "Bat2",
                 "Value": 112
             },
             {
-                "Label": "Cat",
+                "Label": "Cat3",
                 "Value": 77
             },
             {
-                "Label": "Dog",
+                "Label": "Dog4",
                 "Value": 94
             },
             {
-                "Label": "Elephant",
+                "Label": "Elephant5",
                 "Value": 154
             },
             {
-                "Label": "Fox",
+                "Label": "Fox6",
                 "Value": 121
             },
             {
-                "Label": "Goat",
+                "Label": "Goat6",
                 "Value": 97
             },
             {
